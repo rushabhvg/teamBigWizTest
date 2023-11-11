@@ -15,7 +15,6 @@ def extract_text_from_pdf_url(pdf_url):
             for page_number in range(pdf_document.page_count):
                 page = pdf_document[page_number]
                 text += page.get_text()
-
         return text
     else:
         print(f"Failed to retrieve PDF data from {pdf_url}. Status code: {response.status_code}")

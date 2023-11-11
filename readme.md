@@ -15,8 +15,9 @@ This Python script analyzes the occurrences of specific terms in text from provi
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/rushabhvg/teamBigWizTest.git>
-   cd <repository-directory>
+   git clone https://github.com/rushabhvg/teamBigWizTest.git
+   cd teamBigWizTest
+   ```
 
 2. Dependencies:
     ```bash
@@ -28,7 +29,14 @@ This Python script analyzes the occurrences of specific terms in text from provi
     python ps1_url_pdf.py
     ```
 
-4. Usage
-Enter the URL or PDF path when prompted.
-Terminate input by entering '0'.
-View the summarized output, including occurrences and meanings of terms.
+4. Dependencies:
+    ```bash
+    requests (for url get)
+    beautifulsoup4 (for html test extraction)
+    PyMuPDF (for PDF text extraction)
+    ```
+
+5. Usage:
+    Enter the URL or PDF path when prompted.
+    Terminate input by entering '0'.
+    View the summarized output, including occurrences and meanings of terms.
